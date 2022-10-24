@@ -4,17 +4,19 @@ while loop < 2:
     if text_enter == "end":
         loop += 1
     
-    if text_enter == "hello":
+    elif text_enter == "hello":
         print("hello there!")
     
-    if text_enter == "hi":
+    elif text_enter == "hi":
         print("hi there!")
     
-    if text_enter == "hey":
+    elif text_enter == "hey":
         print("hey there!")
 
-    if loop == 2:
+    elif loop == 2:
         break
     
     else:
         print("unsure...")
+
+#Thanks KittenzExe for the elif help lmao#
